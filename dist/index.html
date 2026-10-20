@@ -3,138 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f1e8" />
-    <meta name="description" content="โปรเจกต์ GitHub ของ Surachat — MediaStudio, dropscan-project, Scale Slimy Fish และโปรเจกต์อื่นอีก 4 ชิ้น" />
-    <title>CarToon890 — GitHub Portfolio</title>
+    <meta name="theme-color" content="#f5f5f7" />
+    <meta name="description" content="Selected GitHub projects by Surachat. Explore personal projects, collaborative work, and recent repository updates." />
+    <title>CarToon890 - Selected Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="page-shell">
+    <div class="page-shell" id="top">
       <header class="topbar">
-        <a class="wordmark" href="#top" aria-label="กลับไปด้านบน"><span class="wordmark-mark">GH.</span><span>GITHUB PORTFOLIO</span></a>
-        <a class="top-link" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">เปิด GitHub <span aria-hidden="true">↗</span></a>
+        <a class="brand" href="#top" aria-label="CarToon890 home"><span class="brand-mark">CS</span><span>CAR TOON 890</span></a>
+        <nav aria-label="Main navigation"><a href="#personal">Personal work</a><a href="#other-work">Other work</a><a class="nav-cta" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">GitHub profile</a></nav>
       </header>
 
-      <main id="top">
-        <section class="hero" aria-labelledby="hero-title">
+      <main>
+        <section class="hero reveal" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="status-dot"></span> GITHUB PROFILE <span class="eyebrow-year">/ @CarToon890</span></p>
-            <h1 id="hero-title">โปรเจกต์ที่ทำ<br />อยู่บน <span>GitHub</span></h1>
-            <p class="hero-description">ผลงานเดี่ยว 3 โปรเจกต์ และโปรเจกต์อื่นอีก 4 ชิ้น<br class="desktop-break" /> แยกกลุ่มชัดเจน พร้อมลิงก์ไปดูโค้ด</p>
-            <div class="profile-row">
-              <img class="profile-avatar" src="https://avatars.githubusercontent.com/u/192146590?v=4" alt="รูปโปรไฟล์ GitHub ของ Surachat" width="46" height="46" />
-              <div class="profile-name"><strong>Surachat</strong><span>@CarToon890</span></div>
-              <a class="round-link" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">ดูโปรไฟล์ <span aria-hidden="true">↗</span></a>
-            </div>
+            <p class="eyebrow">GITHUB PORTFOLIO <span>THAILAND</span></p>
+            <h1 id="hero-title">Ideas made<br />into <span>projects.</span></h1>
+            <p class="hero-description">รวมโปรเจกต์ที่ฉันสร้าง ทดลอง และเรียนรู้จากมัน เปิดดูโค้ดและติดตามการพัฒนาของแต่ละ repo ได้ที่นี่</p>
+            <div class="hero-actions"><a class="button button-dark" href="#personal">Explore projects</a><a class="text-link" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">Visit GitHub profile</a></div>
           </div>
-          <div class="hero-art" aria-hidden="true">
-            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-            <div class="art-core"><span>CODE<br />& IDEAS</span><i>✳</i></div>
-            <span class="orbit-label label-a">OPEN SOURCE PROJECTS</span>
-            <span class="orbit-label label-b">BUILT WITH CURIOSITY</span>
-            <span class="art-index">01—03</span>
+          <div class="hero-panel" aria-label="Seven selected GitHub projects">
+            <div class="panel-top"><span>SELECTED WORK</span><span>2026</span></div>
+            <div class="panel-count">07</div>
+            <div class="panel-rule"></div>
+            <div class="panel-bottom"><span>PERSONAL AND COLLABORATIVE</span><span>OPEN SOURCE</span></div>
+            <div class="panel-orb" aria-hidden="true"></div>
           </div>
-          <div class="hero-foot"><span>CAR TOON 890 · PERSONAL WORK</span><span>SCROLL TO EXPLORE <b>↓</b></span></div>
+          <div class="hero-footer"><span>INDEPENDENTLY BUILT WITH CURIOSITY</span><span>SCROLL TO EXPLORE</span></div>
         </section>
 
-        <section class="projects" id="projects" aria-labelledby="projects-title">
-          <div class="section-heading">
-            <div><p class="eyebrow">SOLO PROJECTS <span>/ 01—03</span></p><h2 id="projects-title">โปรเจกต์เดี่ยวของฉัน</h2></div>
-            <p class="section-note">ผลงานที่ทำเอง<br />และดูแลด้วยตัวเอง</p>
-          </div>
-
-          <div class="project-grid">
-            <article class="project-card media-card">
-              <div class="project-visual media-visual" aria-hidden="true">
-                <div class="media-window"><div class="window-top"><i></i><i></i><i></i><span>MEDIA STUDIO</span></div><div class="media-frame"><div class="frame-shape shape-one"></div><div class="frame-shape shape-two"></div><div class="play-button">▶</div><div class="frame-caption">DOWNLOAD · EDIT · EXPORT</div></div><div class="timeline"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
-                <span class="visual-number">01</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">WINDOWS DESKTOP APP <span>· 01</span></p><h3>MediaStudio</h3></div><a class="project-open" href="https://github.com/CarToon890/MediaStudio" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository MediaStudio บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">แอป Windows สำหรับดาวน์โหลด แปลง บีบอัด และตัดไฟล์มีเดีย รวมเครื่องมือไว้ในโปรแกรมเดียว</p>
-              <div class="project-tags"><span>C#</span><span>.NET 9</span><span>WPF</span></div>
+        <section class="projects-section" id="personal" aria-labelledby="personal-title">
+          <div class="section-heading reveal"><div><p class="eyebrow">01 / PERSONAL PROJECTS</p><h2 id="personal-title">ลงมือสร้างด้วยตัวเอง</h2></div><p class="section-intro">สามโปรเจกต์ที่เริ่มทำและดูแลด้วยตัวเอง แต่ละชิ้นใช้ซอฟต์แวร์แก้ปัญหาคนละแบบ</p></div>
+          <div class="project-grid personal-grid">
+            <article class="project-card reveal" data-repo="MediaStudio">
+              <div class="project-art media-art" aria-hidden="true"><div class="media-app"><div class="app-bar"><span></span><span></span><span class="app-title">MEDIA STUDIO</span></div><div class="media-screen"><div class="media-circle"></div><div class="media-play"></div><span>DOWNLOAD  EDIT  EXPORT</span></div><div class="media-timeline"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="art-index">01</span></div>
+              <div class="project-heading"><div><p class="project-category">WINDOWS DESKTOP APP</p><h3>MediaStudio</h3></div><a class="project-link" href="https://github.com/CarToon890/MediaStudio" target="_blank" rel="noopener noreferrer" aria-label="View MediaStudio on GitHub">View repo</a></div>
+              <p class="project-summary">แอป Windows สำหรับดาวน์โหลด แปลง บีบอัด และตัดไฟล์มีเดีย รวมเครื่องมือไว้ในโปรแกรมเดียว</p><div class="tag-list"><span>C sharp</span><span>.NET 9</span><span>WPF</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
 
-            <article class="project-card dropscan-card">
-              <div class="project-visual dropscan-visual" aria-hidden="true">
-                <div class="scan-grid"></div><div class="scan-orb"><div class="scan-ring ring-a"></div><div class="scan-ring ring-b"></div><div class="scan-ring ring-c"></div><div class="scan-drop">⌄</div><span class="scan-cross cross-a">+</span><span class="scan-cross cross-b">+</span></div><span class="scan-label">SCAN / RECEIVE</span><span class="visual-number">02</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">LOCAL FILE TRANSFER <span>· 02</span></p><h3>dropscan-project</h3></div><a class="project-open" href="https://github.com/CarToon890/dropscan-project" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository dropscan-project บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">โปรแกรม Windows สำหรับส่งไฟล์ใน Wi‑Fi/LAN เดียวกัน ให้ผู้รับสแกน QR แล้วดาวน์โหลดผ่านเบราว์เซอร์</p>
-              <div class="project-tags"><span>Windows</span><span>QR</span><span>Wi‑Fi / LAN</span></div>
+            <article class="project-card reveal" data-repo="dropscan-project">
+              <div class="project-art dropscan-art" aria-hidden="true"><div class="scan-orbit orbit-one"></div><div class="scan-orbit orbit-two"></div><div class="scan-core"><div class="qr-pattern"></div></div><span class="scan-caption">SCAN TO RECEIVE</span><span class="art-index">02</span></div>
+              <div class="project-heading"><div><p class="project-category">LOCAL FILE TRANSFER</p><h3>dropscan-project</h3></div><a class="project-link" href="https://github.com/CarToon890/dropscan-project" target="_blank" rel="noopener noreferrer" aria-label="View dropscan-project on GitHub">View repo</a></div>
+              <p class="project-summary">โปรแกรม Windows สำหรับส่งไฟล์ใน Wi-Fi หรือ LAN เดียวกัน ให้ผู้รับสแกน QR code แล้วดาวน์โหลดผ่าน browser</p><div class="tag-list"><span>Windows</span><span>QR code</span><span>Wi-Fi and LAN</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
 
-            <article class="project-card fish-card">
-              <div class="project-visual fish-visual" aria-hidden="true">
-                <div class="fish-window"><div class="fish-window-top"><i></i><i></i><i></i><span>VISION TRACKING</span></div><div class="fish-scene"><span class="scan-target"></span><span class="pixel-fish">◀</span><span class="scan-coordinate">TARGET LOCKED<br />X: 248 · Y: 136</span><span class="scene-cross">+</span></div><div class="vision-status"><span></span> OPENCV · LIVE</div></div><span class="visual-number">03</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">VISION-BASED GAME AUTOMATION <span>· 03</span></p><h3>Scale Slimy Fish</h3></div><a class="project-open" href="https://github.com/CarToon890/Scale-Slimy-Fish" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository Scale Slimy Fish บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">โปรเจกต์ Python ที่ใช้ computer vision วิเคราะห์ภาพหน้าจอและช่วยทำกิจกรรมตกปลาในเกม Roblox</p>
-              <div class="project-tags"><span>Python</span><span>OpenCV</span><span>MSS</span></div>
+            <article class="project-card reveal" data-repo="Scale-Slimy-Fish">
+              <div class="project-art fish-art" aria-hidden="true"><div class="fish-scene"><div class="water-line"></div><div class="fish-shape"></div><div class="target-box"></div><span class="target-label">TARGET TRACKING</span><span class="target-coordinate">X 248  Y 136</span></div><span class="art-index">03</span></div>
+              <div class="project-heading"><div><p class="project-category">COMPUTER VISION</p><h3>Scale Slimy Fish</h3></div><a class="project-link" href="https://github.com/CarToon890/Scale-Slimy-Fish" target="_blank" rel="noopener noreferrer" aria-label="View Scale Slimy Fish on GitHub">View repo</a></div>
+              <p class="project-summary">โปรเจกต์ Python ที่ใช้ computer vision วิเคราะห์ภาพหน้าจอและช่วยทำกิจกรรมตกปลาในเกม Roblox</p><div class="tag-list"><span>Python</span><span>OpenCV</span><span>MSS</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
           </div>
         </section>
 
-        <section class="projects other-projects" id="other-projects" aria-labelledby="other-projects-title">
-          <div class="section-heading">
-            <div><p class="eyebrow">COLLABORATIVE & OTHER WORK <span>/ 04—07</span></p><h2 id="other-projects-title">โปรเจกต์อื่น</h2></div>
-            <p class="section-note">งานร่วม งานเรียน<br />และโปรเจกต์ที่น่าสนใจ</p>
-          </div>
-
+        <section class="projects-section other-section" id="other-work" aria-labelledby="other-title">
+          <div class="section-heading reveal"><div><p class="eyebrow">02 / COLLABORATIVE AND OTHER WORK</p><h2 id="other-title">เรียนรู้ไปกับคนอื่น</h2></div><p class="section-intro">งานทีม งานเรียน และการทดลอง แยกจากโปรเจกต์ส่วนตัวที่ฉันดูแลเอง</p></div>
           <div class="project-grid other-grid">
-            <article class="project-card ecotile-card">
-              <div class="project-visual eco-visual" aria-hidden="true">
-                <div class="eco-board"><div class="eco-tile tile-sand"></div><div class="eco-tile tile-clay"></div><div class="eco-tile tile-sage"></div><div class="eco-tile tile-cream"></div><div class="eco-tile tile-stone"></div><div class="eco-tile tile-olive"></div><div class="eco-tile tile-cream"></div><div class="eco-tile tile-sand"></div><div class="eco-tile tile-clay"></div><span class="eco-label">LAYOUT 03 × 03</span></div><span class="visual-number">04</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">AI TILE DESIGN · NSC PROJECT <span>· 04</span></p><h3>ECOTile</h3></div><a class="project-open" href="https://github.com/CarToon890/tileai-project" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository ECOTile บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">เว็บช่วยออกแบบลายกระเบื้องด้วย AI พร้อมดูห้องแบบ 3D คำนวณผังการปู เศษวัสดุ และงบประมาณ</p>
-              <div class="project-tags"><span>Node.js</span><span>Three.js</span><span>OpenAI</span><span>Supabase</span></div>
+            <article class="project-card reveal" data-repo="tileai-project">
+              <div class="project-art tile-art" aria-hidden="true"><div class="tile-layout"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tile-note">MATERIAL STUDY</span><span class="art-index">04</span></div>
+              <div class="project-heading"><div><p class="project-category">AI TILE DESIGN</p><h3>ECOTile</h3></div><a class="project-link" href="https://github.com/CarToon890/tileai-project" target="_blank" rel="noopener noreferrer" aria-label="View ECOTile on GitHub">View repo</a></div>
+              <p class="project-summary">เว็บออกแบบลายกระเบื้องด้วย AI พร้อมดูห้องแบบ 3D วางผังการปู และประเมินค่าใช้จ่าย</p><div class="tag-list"><span>Node.js</span><span>Three.js</span><span>OpenAI</span><span>Supabase</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
 
-            <article class="project-card disposal-card">
-              <div class="project-visual disposal-visual" aria-hidden="true">
-                <div class="disposal-room"><div class="room-window"></div><div class="room-couch"><i></i><i></i><i></i></div><div class="room-plant"><i></i><i></i><b></b></div><div class="reuse-arrow">↻</div><span class="room-caption">GIVE FURNITURE A SECOND LIFE</span></div><span class="visual-number">05</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">GROUP WEB APPLICATION <span>· 05</span></p><h3>The Disposal Guilt</h3></div><a class="project-open" href="https://github.com/CarToon890/ProjectWeb-Application-Development" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository The Disposal Guilt บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">แพลตฟอร์ม trade-in เฟอร์นิเจอร์เก่า นัดรับของและส่งของใหม่ในรอบเดียว ช่วยลดขยะชิ้นใหญ่</p>
-              <div class="project-tags"><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span></div>
+            <article class="project-card reveal" data-repo="ProjectWeb-Application-Development">
+              <div class="project-art room-art" aria-hidden="true"><div class="room-window"></div><div class="room-sofa"><i></i><i></i></div><div class="room-plant"><i></i><i></i><i></i></div><span class="room-label">GIVE FURNITURE A SECOND LIFE</span><span class="art-index">05</span></div>
+              <div class="project-heading"><div><p class="project-category">GROUP WEB APPLICATION</p><h3>The Disposal Guilt</h3></div><a class="project-link" href="https://github.com/CarToon890/ProjectWeb-Application-Development" target="_blank" rel="noopener noreferrer" aria-label="View The Disposal Guilt on GitHub">View repo</a></div>
+              <p class="project-summary">แพลตฟอร์มแลกเปลี่ยนเฟอร์นิเจอร์เก่า ช่วยจัดรอบรับและส่งของใหม่ให้จบในเที่ยวเดียวเพื่อลดขยะชิ้นใหญ่</p><div class="tag-list"><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
 
-            <article class="project-card ikea-card">
-              <div class="project-visual ikea-visual" aria-hidden="true">
-                <div class="price-panel"><div class="price-panel-top"><span>PRICE PREDICTOR</span><span>USD</span></div><div class="price-product"><div class="chair-back"></div><div class="chair-seat"></div><div class="chair-leg leg-one"></div><div class="chair-leg leg-two"></div></div><div class="price-output"><span>ESTIMATED PRICE</span><strong>$129</strong><i>RANDOM FOREST</i></div><div class="price-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div></div><span class="visual-number">06</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">MACHINE LEARNING · DEPLOYED DEMO <span>· 06</span></p><h3>IKEA Price Predictor</h3></div><a class="project-open" href="https://github.com/CarToon890/ML-Deployment-Project" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository IKEA Price Predictor บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">เว็บแอปใช้ Random Forest ประเมินราคาสินค้า IKEA จากหมวดหมู่ รีวิว ขนาด และสถานะโปรโมชัน</p>
-              <div class="project-tags"><span>Python</span><span>scikit-learn</span><span>Streamlit</span></div>
+            <article class="project-card reveal" data-repo="ML-Deployment-Project">
+              <div class="project-art price-art" aria-hidden="true"><div class="price-card"><span class="price-kicker">PRICE PREDICTOR</span><div class="chair"><i></i><b></b><em></em></div><span class="price-label">ESTIMATED PRICE</span><strong>$129</strong><div class="price-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="art-index">06</span></div>
+              <div class="project-heading"><div><p class="project-category">MACHINE LEARNING</p><h3>IKEA Price Predictor</h3></div><a class="project-link" href="https://github.com/CarToon890/ML-Deployment-Project" target="_blank" rel="noopener noreferrer" aria-label="View IKEA Price Predictor on GitHub">View repo</a></div>
+              <p class="project-summary">เว็บแอป Streamlit ที่ประเมินราคาสินค้า IKEA ด้วยโมเดล Random Forest</p><div class="tag-list"><span>Python</span><span>scikit-learn</span><span>Streamlit</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
 
-            <article class="project-card cctv-card">
-              <div class="project-visual cctv-visual" aria-hidden="true">
-                <div class="cctv-monitor"><div class="cctv-top"><span>CAM 04 · PILOT</span><span>● REC</span></div><div class="cctv-scene"><div class="cctv-person"><i></i><b></b><em></em></div><div class="detect-box"><span>PERSON 0.94</span></div><div class="cctv-corner corner-one"></div><div class="cctv-corner corner-two"></div><div class="cctv-corner corner-three"></div><div class="cctv-corner corner-four"></div></div><div class="cctv-status"><span></span> YOLOV8 · VIDEO ANALYSIS</div></div><span class="visual-number">07</span>
-              </div>
-              <div class="project-info"><div><p class="project-type">COMPUTER VISION · EDUCATIONAL PILOT <span>· 07</span></p><h3>Project CCTV Safety</h3></div><a class="project-open" href="https://github.com/CarToon890/Project-CCTV-Safety" target="_blank" rel="noopener noreferrer" aria-label="เปิด repository Project CCTV Safety บน GitHub"><span>↗</span></a></div>
-              <p class="project-summary">ต้นแบบวิเคราะห์วิดีโอ CCTV ด้วย YOLOv8 และโมเดลจำแนกเหตุการณ์ ยังเป็นงานทดลอง ไม่ใช่ระบบพร้อมใช้งานจริง</p>
-              <div class="project-tags"><span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>FastAPI</span></div>
+            <article class="project-card reveal" data-repo="Project-CCTV-Safety">
+              <div class="project-art cctv-art" aria-hidden="true"><div class="cctv-screen"><div class="cctv-heading"><span>CAMERA 04</span><span>RECORDING</span></div><div class="cctv-view"><div class="person-shape"></div><div class="detection-box"><span>PERSON 0.94</span></div></div><span class="cctv-caption">VIDEO ANALYSIS PILOT</span></div><span class="art-index">07</span></div>
+              <div class="project-heading"><div><p class="project-category">COMPUTER VISION PILOT</p><h3>Project CCTV Safety</h3></div><a class="project-link" href="https://github.com/CarToon890/Project-CCTV-Safety" target="_blank" rel="noopener noreferrer" aria-label="View Project CCTV Safety on GitHub">View repo</a></div>
+              <p class="project-summary">ต้นแบบเพื่อการศึกษาที่วิเคราะห์วิดีโอ CCTV ด้วย YOLOv8 เป็นงานทดลองและยังไม่ใช่ระบบพร้อมใช้งานจริง</p><div class="tag-list"><span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>FastAPI</span></div>
+              <div class="repo-meta" aria-live="polite"><p class="meta-loading">Loading repository activity</p></div>
             </article>
           </div>
         </section>
-        <section class="note-section">
-          <span class="note-symbol">✳</span>
-          <p>ดูโค้ด การเปลี่ยนแปลง<br /><em>และข้อมูลฉบับเต็มได้ที่ GitHub</em></p>
-          <a class="profile-cta" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">ไปที่ github.com/CarToon890 <span aria-hidden="true">↗</span></a>
-        </section>
-      </main>
 
-      <footer class="footer"><a class="wordmark" href="#top"><span class="wordmark-mark">GH.</span><span>GITHUB PORTFOLIO</span></a><span>CAR TOON 890 <b>✳</b></span><a href="#top">กลับขึ้นด้านบน ↑</a></footer>
+        <section class="profile-banner reveal"><div><p class="eyebrow">MORE ON GITHUB</p><h2>ติดตามโปรเจกต์ที่จะทำต่อไป</h2><p class="refresh-note" id="data-refresh" aria-live="polite">กำลังโหลดข้อมูล GitHub</p></div><a class="button button-dark" href="https://github.com/CarToon890" target="_blank" rel="noopener noreferrer">Visit GitHub profile</a></section>
+      </main>
+      <footer class="footer"><a class="brand" href="#top"><span class="brand-mark">CS</span><span>CAR TOON 890</span></a><span>PROJECTS AND EXPERIMENTS</span><a href="#top">Back to top</a></footer>
     </div>
   </body>
 </html>
-
-
-
-
-
-

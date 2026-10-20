@@ -1,12 +1,14 @@
-name: Deploy to GitHub Pages
+name: Refresh project data and deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -16,6 +18,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -23,13 +26,32 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Refresh repository metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-project-metadata.mjs
+
+      - name: Save refreshed metadata cache
+        run: |
+          git add data/project-metadata.json
+          if git diff --cached --quiet; then
+            echo "Repository metadata has not changed."
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: refresh project metadata"
+            git push
+          fi
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
+
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

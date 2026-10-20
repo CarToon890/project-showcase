@@ -1,25 +1,25 @@
 # CarToon890 GitHub Projects Portfolio
 
-Static Thai portfolio for the public GitHub profile [@CarToon890](https://github.com/CarToon890).
+A static Thai and English portfolio for [@CarToon890](https://github.com/CarToon890), published with GitHub Pages.
 
-## Solo projects
+## Project groups
 
-- [MediaStudio](https://github.com/CarToon890/MediaStudio) — Windows desktop media downloader, converter, compressor, and trimmer built with C# and .NET 9 WPF.
-- [dropscan-project](https://github.com/CarToon890/dropscan-project) — Windows app for direct file transfers over the same Wi-Fi/LAN, using a QR code for browser downloads.
-- [Scale Slimy Fish](https://github.com/CarToon890/Scale-Slimy-Fish) — Python project using computer vision to automate fishing gameplay in Roblox, with OpenCV and MSS.
+The site keeps three independently maintained projects together:
 
-## Collaborative and other projects
+- [MediaStudio](https://github.com/CarToon890/MediaStudio)
+- [dropscan-project](https://github.com/CarToon890/dropscan-project)
+- [Scale Slimy Fish](https://github.com/CarToon890/Scale-Slimy-Fish)
 
-- [ECOTile](https://github.com/CarToon890/tileai-project) — AI-assisted tile design, room visualization, tile layout optimization, and cost estimation.
-- [The Disposal Guilt](https://github.com/CarToon890/ProjectWeb-Application-Development) — Group furniture trade-in web platform built with FastAPI, PostgreSQL, and Docker.
-- [IKEA Price Predictor](https://github.com/CarToon890/ML-Deployment-Project) — Streamlit app for IKEA price estimates using a Random Forest model.
-- [Project CCTV Safety](https://github.com/CarToon890/Project-CCTV-Safety) — Educational computer-vision pilot for CCTV video analysis; not production-ready.
+Four collaborative and other projects appear in a separate section: ECOTile, The Disposal Guilt, IKEA Price Predictor, and Project CCTV Safety.
+
+## Repository activity
+
+The workflow in `.github/workflows/pages.yml` refreshes repository metadata hourly and deploys the static files in `dist/`. The metadata includes each selected repository's latest commit date, message, short SHA, and reported commit statuses. Dates are formatted in Thailand time in the browser. If a repository cannot be refreshed, the workflow retains its last saved data and labels it as saved information.
+
+The refresh script is `scripts/update-project-metadata.mjs`. Its saved data is in `data/project-metadata.json`; generated site metadata is written to `dist/data/project-metadata.json`. The workflow commits the saved cache only when repository data changes.
+
+The page uses no runtime GitHub API requests from visitors. GitHub Actions uses its repository token to refresh the public repository data.
 
 ## GitHub Pages
 
-The site files are in `dist/`. The workflow at `.github/workflows/pages.yml` publishes them to GitHub Pages after each push to `main`, or when run manually from the Actions tab. The relative stylesheet link supports project site URLs such as `https://cartoon890.github.io/project-showcase/`.
-
-In the repository's **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
-
-No build tools or package installation are required.
-
+In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source. Pushes to `main`, manual workflow runs, and the hourly schedule all refresh the metadata and deploy `dist/`.

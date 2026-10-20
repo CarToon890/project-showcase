@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-20T20:34:03.607Z",
+  "staleRepos": [
+    "MediaStudio",
+    "dropscan-project",
+    "Scale-Slimy-Fish",
+    "tileai-project",
+    "ProjectWeb-Application-Development",
+    "ML-Deployment-Project",
+    "Project-CCTV-Safety"
+  ],
+  "projects": [
+    {
+      "name": "MediaStudio",
+      "commit": {
+        "date": "2026-09-24T04:51:20Z",
+        "message": "feat: add safe in-app stable updates",
+        "sha": "e826de355e333bb11396900da14b4900dfd68302",
+        "url": "https://github.com/CarToon890/MediaStudio/commit/e826de355e333bb11396900da14b4900dfd68302"
+      },
+      "status": {
+        "state": "none",
+        "contexts": []
+      }
+    },
+    {
+      "name": "dropscan-project",
+      "commit": {
+        "date": "2026-09-13T21:29:16Z",
+        "message": "Initial DropScan LAN file sharing app",
+        "sha": "372be38e65667d4e3da5103291dd604b590a496a",
+        "url": "https://github.com/CarToon890/dropscan-project/commit/372be38e65667d4e3da5103291dd604b590a496a"
+      },
+      "status": {
+        "state": "none",
+        "contexts": []
+      }
+    },
+    {
+      "name": "Scale-Slimy-Fish",
+      "commit": {
+        "date": "2026-08-24T04:56:48Z",
+        "message": "Remove VM section and revert to native execution",
+        "sha": "736cc3b071c8cb2a1f3b1d3728967012e68b2624",
+        "url": "https://github.com/CarToon890/Scale-Slimy-Fish/commit/736cc3b071c8cb2a1f3b1d3728967012e68b2624"
+      },
+      "status": {
+        "state": "none",
+        "contexts": []
+      }
+    },
+    {
+      "name": "tileai-project",
+      "commit": {
+        "date": "2026-07-16T20:34:12Z",
+        "message": "add readme.txt",
+        "sha": "8f88ceaae34d1036b51aac4b0f852f1b8e4beabd",
+        "url": "https://github.com/CarToon890/tileai-project/commit/8f88ceaae34d1036b51aac4b0f852f1b8e4beabd"
+      },
+      "status": {
+        "state": "success",
+        "contexts": [
+          {
+            "name": "Vercel",
+            "state": "success",
+            "url": "https://vercel.com/surachat18525-3005s-projects/tileai-project/B4MXFpBVvHRFDBQiVjD4izT9rJGo"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProjectWeb-Application-Development",
+      "commit": {
+        "date": "2026-10-04T17:23:15Z",
+        "message": "docs: document architecture and integrate local storage",
+        "sha": "6c668c06bc74cffac7bfa854322db191462d437f",
+        "url": "https://github.com/CarToon890/ProjectWeb-Application-Development/commit/6c668c06bc74cffac7bfa854322db191462d437f"
+      },
+      "status": {
+        "state": "success",
+        "contexts": [
+          {
+            "name": "Vercel",
+            "state": "success",
+            "url": "https://vercel.com/surachat18525-3005s-projects/project-web-application-development/12W8UEYMHBMdxRiNarwDbRSSgNgp"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ML-Deployment-Project",
+      "commit": {
+        "date": "2026-03-22T09:24:19Z",
+        "message": "Add README with project overview and documentation",
+        "sha": "89e9b5d4f88553d2e399572a8b7fb10b32cc94f7",
+        "url": "https://github.com/CarToon890/ML-Deployment-Project/commit/89e9b5d4f88553d2e399572a8b7fb10b32cc94f7"
+      },
+      "status": {
+        "state": "none",
+        "contexts": []
+      }
+    },
+    {
+      "name": "Project-CCTV-Safety",
+      "commit": {
+        "date": "2026-10-14T18:58:50Z",
+        "message": "chore: polish Thai demo and interface copy",
+        "sha": "88aa1953f2a990a616e38dc56884d26766a12514",
+        "url": "https://github.com/CarToon890/Project-CCTV-Safety/commit/88aa1953f2a990a616e38dc56884d26766a12514"
+      },
+      "status": {
+        "state": "none",
+        "contexts": []
+      }
+    }
+  ]
+}
