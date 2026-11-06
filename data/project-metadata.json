@@ -3,10 +3,10 @@
     {
       "name": "MediaStudio",
       "commit": {
-        "date": "2026-09-24T04:51:20Z",
-        "message": "feat: add safe in-app stable updates",
-        "sha": "e826de355e333bb11396900da14b4900dfd68302",
-        "url": "https://github.com/CarToon890/MediaStudio/commit/e826de355e333bb11396900da14b4900dfd68302"
+        "date": "2026-11-06T10:05:41Z",
+        "message": "test: make release UI captures independent of runner desktop size",
+        "sha": "6d99f43cfe6ea35ccccbe7ec82722d089166c246",
+        "url": "https://github.com/CarToon890/MediaStudio/commit/6d99f43cfe6ea35ccccbe7ec82722d089166c246"
       },
       "status": {
         "state": "none",
