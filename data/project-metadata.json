@@ -3,10 +3,10 @@
     {
       "name": "MediaStudio",
       "commit": {
-        "date": "2026-11-06T10:05:41Z",
-        "message": "test: make release UI captures independent of runner desktop size",
-        "sha": "6d99f43cfe6ea35ccccbe7ec82722d089166c246",
-        "url": "https://github.com/CarToon890/MediaStudio/commit/6d99f43cfe6ea35ccccbe7ec82722d089166c246"
+        "date": "2026-11-06T22:37:13Z",
+        "message": "Release MediaStudio v1.1.3",
+        "sha": "9c9615c80ccd5e7ff621ed08ea79ed978eb51179",
+        "url": "https://github.com/CarToon890/MediaStudio/commit/9c9615c80ccd5e7ff621ed08ea79ed978eb51179"
       },
       "status": {
         "state": "none",
